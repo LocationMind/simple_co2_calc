@@ -109,10 +109,9 @@ python excel_consolidator.py
 
 Five CSV files will be created in the same directory as excel_consolidator.py.
 
-## 🔄 How to Update CSV Data
-
-When CSV files are updated, they must be converted to JavaScript files.
-※CSV files are converted to JS for local execution.
+4. How to Update CSV Data
+   When CSV files are updated, they must be converted to JavaScript files.
+   *CSV files are converted to JS for local execution.
 
 ### How to Run
 
@@ -198,13 +197,6 @@ Fuel efficiency (WLTC): 15.8 km/L
 - Search for type designation in WLTC mode → If found, use that data
 - If not found, search in the next mode (JC08)
 - Continue searching in order (10・15 → JH25 → JH15)
-
-## 🎨 Design
-
-- Responsive design
-- Modern, clean UI
-- Gradient background
-- Supports PC, tablet, and smartphone
 
 ## 🔧 Technical Specifications
 
