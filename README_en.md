@@ -199,13 +199,6 @@ Fuel efficiency (WLTC): 15.8 km/L
 - If not found, search in the next mode (JC08)
 - Continue searching in order (10・15 → JH25 → JH15)
 
-## 🎨 Design
-
-- Responsive design
-- Modern, clean UI
-- Gradient background
-- Supports PC, tablet, and smartphone
-
 ## 🔧 Technical Specifications
 
 - **HTML5** - Structure and layout
@@ -234,3 +227,4 @@ If you encounter issues, please check:
 
 **Created:** January 2026  
 **Version:** 1.0
+
