@@ -93,6 +93,14 @@ Co2排出量計算/
 
 ## 🔄 How to Update to Latest Data
 
+0. Overview
+
+```mermaid
+flowchart LR
+    A[Download fuel efficiency files from the MLIT website] --> B[Use Python to compile<br>them into CSV files] --> C[Use Python to convert<br>them into JS files]
+```
+      *Steps 1-3 are also documented in the `README.md` file under the `型式一覧` folder.*  
+
 1. Download the relevant files from the Ministry of Land, Infrastructure, Transport and Tourism website.
    https://www.mlit.go.jp/jidosha/jidosha_mn10_000002.html
 
@@ -107,39 +115,14 @@ pip install -r requirements.txt
 python excel_consolidator.py
 ```
 
-Five CSV files will be created in the same directory as excel_consolidator.py.
+      Five CSV files will be created in the same directory as excel_consolidator.py.
 
 4. How to Update CSV Data
    When CSV files are updated, they must be converted to JavaScript files.
    *CSV files are converted to JS for local execution.
 
-### How to Run
-
 ```bash
 python convert_csv_to_js.py
-```
-
-### Example Output
-
-```
-============================================================
-CSV→JavaScript Conversion Tool
-============================================================
-
-✓ Converted: output_WLTC.csv -> output_WLTC.js
-  Records: 1,274
-✓ Converted: output_JC08.csv -> output_JC08.js
-  Records: 2,539
-✓ Converted: output_10-15.csv -> output_10-15.js
-  Records: 592
-✓ Converted: output_JH25.csv -> output_JH25.js
-  Records: 1,172
-✓ Converted: output_JH15.csv -> output_JH15.js
-  Records: 4,236
-
-============================================================
-All conversions completed!
-============================================================
 ```
 
 ## 📊 CSV File Format
